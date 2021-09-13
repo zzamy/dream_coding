@@ -23,6 +23,7 @@ function printWithDelay(print, timeout) {
 printWithDelay(() => console.log("async callback"), 2000);
 
 console.clear();
+
 //콜백 지옥 예제
 
 class UserStorage {
